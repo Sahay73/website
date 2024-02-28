@@ -1,0 +1,78 @@
+/* header-contact-section */
+.secondary-menu {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--c-common-blue);
+}
+
+/* secondary header */
+.secondary-menu-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 27px;
+  padding-left: 7px;
+  padding-right: 20px;
+}
+
+.contacts-list {
+  color: var(--c-white);
+  font-size: 13.3px;
+}
+
+/* icons */
+.fa {
+  color: var(--c-white);
+}
+.fa-envelope-o,
+.fa-map-marker,
+.fa-phone {
+  font-size: 15px;
+  margin-right: 8px;
+}
+/* //icons// */
+
+/* header-menu-section */
+.main-menu {
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu-list {
+  margin-left: -7.8px;
+  display: flex;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.sticky .menu-options {
+  color: white;
+}
+.menu-options {
+  padding-right: 28px;
+  font-size: 17px;
+}
+
+.sticky .main-menu {
+  background-color: #00247e;
+  position: fixed !important;
+  animation: 900ms running fadeInUp;
+  animation-name: slideInDown;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,15 @@
+.primary-btn {
+  padding: 12px 30px;
+  background-color: var(--c-common-blue);
+  color: var(--c-white);
+  border-radius: 5px;
+  font-size: 17px;
+}
+.sticky .primary-btn {
+  background-color: var(--c-white);
+  color: var(--c-common-blue);
+}
+.primary-btn:hover {
+  transition: all 0.4s linear;
+  background-color: var(--c-hover-blue);
+}

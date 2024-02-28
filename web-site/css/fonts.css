@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Muli";
+  src: url("../assets/fonts/Muli.ttf");
+}
+
+:root {
+  --font-normal: muli;
+}
+
+/* font-classes */
+.font-regular {
+  font-family: var(--font-normal);
+}

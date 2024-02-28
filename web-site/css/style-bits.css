@@ -1,0 +1,28 @@
+/* margin-bits */
+.Ml-auto {
+  margin-left: auto;
+}
+.Ml-20 {
+  margin-left: 20px;
+}
+.Mt-10 {
+  margin-top: 10px;
+}
+/* padding */
+.Pb-35 {
+  padding-bottom: 35px;
+}
+/* font-size */
+.Fs-60 {
+  font-size: 60px;
+}
+.Fs-20 {
+  font-size: 20px;
+}
+/* line-height */
+.Lh-1 {
+  line-height: 1;
+}
+.Lh-4 {
+  line-height: 4;
+}
